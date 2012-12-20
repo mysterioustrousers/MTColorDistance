@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MTColorDistance' target in the 'MTColorDistance' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
