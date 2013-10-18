@@ -7,7 +7,7 @@
 //
 
 
-@interface UIColor (Utilities)
+@interface UIColor (Distance)
 
 // Determines which color in the array of colors most closely matches receiving color.
 - (UIColor *)closestColorInPalette:(NSArray *)palette;

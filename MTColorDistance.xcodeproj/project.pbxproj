@@ -13,7 +13,7 @@
 		C27945DE1683527800DFED2F /* libMTColorDistance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C27945C51683527800DFED2F /* libMTColorDistance.a */; };
 		C27945E41683527800DFED2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C27945E21683527800DFED2F /* InfoPlist.strings */; };
 		C27945E71683527800DFED2F /* MTColorDistanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27945E61683527800DFED2F /* MTColorDistanceTests.m */; };
-		C27945F6168352F100DFED2F /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C27945F5168352F100DFED2F /* UIColor+Utilities.m */; };
+		C27945F6168352F100DFED2F /* UIColor+Distance.m in Sources */ = {isa = PBXBuildFile; fileRef = C27945F5168352F100DFED2F /* UIColor+Distance.m */; };
 		C27945F91683532C00DFED2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27945F71683531B00DFED2F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +49,8 @@
 		C27945E31683527800DFED2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C27945E51683527800DFED2F /* MTColorDistanceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTColorDistanceTests.h; sourceTree = "<group>"; };
 		C27945E61683527800DFED2F /* MTColorDistanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTColorDistanceTests.m; sourceTree = "<group>"; };
-		C27945F4168352F100DFED2F /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
-		C27945F5168352F100DFED2F /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
+		C27945F4168352F100DFED2F /* UIColor+Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Distance.h"; sourceTree = "<group>"; };
+		C27945F5168352F100DFED2F /* UIColor+Distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Distance.m"; sourceTree = "<group>"; };
 		C27945F71683531B00DFED2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -109,8 +109,8 @@
 		C27945CA1683527800DFED2F /* MTColorDistance */ = {
 			isa = PBXGroup;
 			children = (
-				C27945F4168352F100DFED2F /* UIColor+Utilities.h */,
-				C27945F5168352F100DFED2F /* UIColor+Utilities.m */,
+				C27945F4168352F100DFED2F /* UIColor+Distance.h */,
+				C27945F5168352F100DFED2F /* UIColor+Distance.m */,
 				C27945CB1683527800DFED2F /* Supporting Files */,
 			);
 			path = MTColorDistance;
@@ -241,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27945F6168352F100DFED2F /* UIColor+Utilities.m in Sources */,
+				C27945F6168352F100DFED2F /* UIColor+Distance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +395,7 @@
 				C27945EC1683527800DFED2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C27945ED1683527800DFED2F /* Build configuration list for PBXNativeTarget "MTColorDistanceTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				C27945EF1683527800DFED2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

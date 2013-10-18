@@ -6,7 +6,7 @@
 //  Copyright 2011 Mysterious Trousers. All rights reserved.
 //
 
-#import "UIColor+Utilities.h"
+#import "UIColor+Distance.h"
 
 
 #define K_L 1
@@ -17,7 +17,7 @@
 #define Z_REF 108.883f
 
 
-@implementation UIColor (Utilities)
+@implementation UIColor (Distance)
 
 
 - (UIColor *)closestColorInPalette:(NSArray *)palette {
