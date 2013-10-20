@@ -19,7 +19,6 @@
 
 @implementation UIColor (Distance)
 
-
 - (UIColor *)closestColorInPalette:(NSArray *)palette {
     float bestDifference = MAXFLOAT;
     UIColor *bestColor = nil;
