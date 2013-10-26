@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MTColorDistance"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A category on UIColor. Pass in an array of colors and it will return the closest color to the receiver."
   s.homepage     = "https://github.com/mysterioustrousers/MTColorDistance"
   s.license      = 'MIT'
